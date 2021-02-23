@@ -1,0 +1,14 @@
+{
+    "name": "lianhua/php-bad-apple",
+    "description": "A Bad Apple implementation in PHP",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Camille Bernard",
+            "email": "admin@lianhua.dev"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
