@@ -1,0 +1,9 @@
+#! /usr/bin/env php
+<?php
+
+use Lianhua\BadApple\Encorder;
+
+require_once __DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "src" . DIRECTORY_SEPARATOR . "Encoder.php";
+
+$encoder = new Encorder(["workDir" => "/Users/camille/Downloads/touhou/out"]);
+$encoder->encode();
